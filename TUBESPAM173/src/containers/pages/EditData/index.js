@@ -96,10 +96,8 @@ export default class EditData extends Component {
          </View>
 
          <TouchableOpacity style={{backgroundColor:'#008983', borderRadius:5}} onPress={()=>this.klikSimpan()} >
-                    <Text style={{color:'#FFFFFF', padding:6, textAlign:'center'}}>Simpan Perubahan</Text>
+                    <Text style={{color:'#FFFFFF', padding:6, textAlign:'center'}}>Simpan Perubahan.</Text>
                   </TouchableOpacity> 
-
-         
 
          </View>
       );
